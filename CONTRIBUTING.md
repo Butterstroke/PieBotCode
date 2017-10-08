@@ -1,4 +1,4 @@
-# How Can I ontribute into this project?
+# How Can I Contribute into this project?
 To contribute into this project, either fork it and then Pull request it or edit on the github if permission is avalible.
 # How do I report a bug?
 Just do p.report (bug) or p.contact (bug). The sooner you report it, the quicker we will fix it. We will be adding image support so then you can attach images to help us more.
