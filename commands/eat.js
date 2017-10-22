@@ -18,5 +18,5 @@ exports.run = function(client, message, args) {
 		var member = message.guild.member(user);
 		embed.addField('Eat', `${message.author.username} just took a bite from ${user.username}. Lucky it wasn't me tho`);
 		message.channel.send({embed});
-	}
+	} 
 }
