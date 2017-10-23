@@ -1,6 +1,6 @@
 exports.run = function(client, message, args) {
-  let reason = msg.content.split(' ').slice(1).join(' ');
-  if (!reason) { return message.channel.send(`Hi ${message.author.username}, I'm Pie!`); } 
+  let reason = args.join(' ');
+  if (!reason) { reason = message.author.username; }
 
   message.channel.send(`Hi ${reason}, I'm Pie!`);
 }
